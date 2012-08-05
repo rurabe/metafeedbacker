@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.7'
+gem 'bootstrap-sass'
+gem 'pg'
+gem 'mechanize'
+gem 'nokogiri'
+gem 'devise'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -9,10 +14,7 @@ group :test, :development do
 	gem 'sqlite3'
 end
 
-gem 'pg'
-gem 'mechanize'
-gem 'nokogiri'
-gem 'devise'
+
 
 
 # Gems used only for assets and not required
