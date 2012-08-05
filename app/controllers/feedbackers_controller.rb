@@ -1,0 +1,2 @@
+class FeedbackersController < ApplicationController
+end
